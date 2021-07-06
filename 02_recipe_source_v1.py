@@ -27,7 +27,7 @@ def not_blank(question, error_msg, num_ok ):
 
 
 # main routine
-source = not_blank("What is the name of your recipe?",
+source = not_blank("Where is your recipe from?",
                    "The recipe source can't be blank!",  # customize error message eg. to include mention of numbers
                    True)  # Can change this to 'False' to disallow numbers in URL - need to change error msg above too
 print("The recipe is from {}.".format(source))
