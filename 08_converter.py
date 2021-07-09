@@ -1,4 +1,4 @@
-"""06 v2 Get amount and unit for user then check if unit is in dictionary of units.
+"""08 v1 Get amount and unit for user then check if unit is in dictionary of units.
 If it is, convert to mLs, otherwise leave as is.
 version 3 - Builds on v2 by referencing abbreviations of units to dictionary
 Created by Wen-Qi Toh
